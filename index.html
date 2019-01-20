@@ -3,47 +3,74 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Homework 1 - Basic Portfolio</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Basic Portfolio - About</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    
+
 </head>
 
 <body>
-<header>
-    <h1>Gordon Li</h1>
-    
-    <a class="NavButtons" href="index.html">About</a>
-    <a class="NavButtons" href="portfolio.html">Portfolio</a>
-    <a class="NavButtons" href="contact.html">Contact</a>
-</header>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<div class="tobewrapped">
-    <h2>About Me</h2>
-    <hr>
-
-    <img id="headshot" src="assets/images/Headshot.jpg">
-
-
-    <p>My name is Gordon Li. Originally from Hong Kong, I moved to Toronto in 2014.
-        I went to university in Ohio, majoring in biology and minoring in marine sciences.
-        Previous to this bootcamp, I do not have any knowledge in computer sciences, much less coding.
-        However, I have always had an interest in the subject and I certainly plan on giving it my all.
-        Since almsot every busy small or big has it's own website, server, etc. it means that
-        knowledge in this subject will be an invaluable addition to my skillset for my career.
-    </p>
-
-    <div class="push"></div>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <h1 class="navbar-brand" href="#">About Me</h1>
+        <!--HEADER-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <!--INDEX LINK-->
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+                </li>
+                <!--PORTFOLIO LINK-->
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                </li>
+                <!--CONTACT LINK-->
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
 
-<footer class="footer">
-     copyright &copy;
-</footer>    
-</div>
+
+
+
+
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div>
+                <img id="headshot" src="assets/images/Headshot.jpg">
+
+
+                <p>My name is Gordon Li. Originally from Hong Kong, I moved to Toronto in 2014.
+                    I went to university in Ohio, majoring in biology and minoring in marine sciences.
+                    Previous to this bootcamp, I do not have any knowledge in computer sciences, much less coding.
+                    However, I have always had an interest in the subject and I certainly plan on giving it my all.
+                    Since almsot every busy small or big has it's own website, server, etc. it means that
+                    knowledge in this subject will be an invaluable addition to my skillset for my career.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!--FOOTER-->
+    <!--specifically this footer doesn't stick to the bottom-->
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">copyright &copy;</span>
+        </div>
+    </footer>
 
 
 </body>

@@ -3,55 +3,67 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Basic Portfolio - Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    
+
 </head>
 
 <body>
-<header>
-    <h1>Gordon Li</h1>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <h1 class="navbar-brand" href="#">Contact</h1>
+        <!--HEADER-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <!--INDEX LINK-->
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+                </li>
+                <!--PORTFOLIO LINK-->
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                </li>
+                <!--CONTACT LINK-->
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--USER INPUT FOR NAME EMAIL MESSAGE-->
+    <div class="contactinput">
+        <div>
+            <form action="/action_page.php">
+                <!--NAME INPUT-->
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="John Smith">
+                <!--EMAIL INPUT-->
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="example@gmail.com">
+                <!--MESSAGE INPUT-->
+                <label for="message">Message</label>
+                <input type="text" id="message" name="message" placeholder="">
 
-    <a class="NavButtons" href="index.html">About</a>
-    <a class="NavButtons" href="portfolio.html">Portfolio</a>
-    <a class="NavButtons" href="contact.html">Contact</a>
-</header>
+                <input type="submit" value="Submit">
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<div class="tobewrapped">
-    <h2>Contact</h2>
-    <hr>
-    <br>
-
-    <div>
-        <form action="/action_page.php">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Smith">
-        
-            <label for="email">Email</label>
-            <input type="text" id="email" name="email" placeholder="example@gmail.com">
-        
-            <label  for="message">Message</label>
-            <input type="text" id="message" name="message" placeholder="">
-        
-            <input type="submit" value="Submit">
-        
-        </form>
-
-        <div class="push"></div>
-  
-    
-    <footer class="footer">
-         copyright &copy;
-    </footer>    
+            </form>
+        </div>
     </div>
-
-
-
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">copyright &copy;</span>
+        </div>
+    </footer>
 </body>
 
 </html>
