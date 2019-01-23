@@ -1,7 +1,7 @@
 h1 {
     color: white;
-    /* font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 200px;*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 25px;
 }
 
 div {
@@ -15,12 +15,72 @@ body {
     width: 960px;
     margin: 0 auto 0 auto;
 }
+
+.aboutmediv {
+    background-image: url("../images/aboutmediv.png");
+}
+/* .card-opacity {
+    opacity: 0.8;
+} */
+
+.collapse {
+    margin-top: 20px;
+}
+
+.dropdown {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    color: gray;
+}
+
 .navbar {
     background-image: url("../images/NavBackground.jpg")
 }
 .nav-link {
     color: rgb(11, 228, 22);
 }
+
+/* .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  } */
+  
+
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+#submitbtn {
+    background-image: url("../images/NavBackground.jpg");
+ }
+
 p {
     line-height: 1.6;
 }
@@ -44,6 +104,7 @@ a {
             width: 200px;
             height: 200px;
             float: inherit;
+            
         }
         #TrainSch {
             width: 200px;
@@ -104,16 +165,18 @@ body > .container {
 /* Footer color aqua */
 .container {
     background-image: url("../images/FootBackground.jpg");
-    
+    width: 960px;
 }
 
 /* Card titles centered */
 .card-title {
     text-align: center;
 }
-.card {
-    background-image: url("../images/cardBackground.jpg")
+.mb-3 {
+    background-image: url("../images/cardBackground.jpg");
+
 }
+
 /* Responsiveness */
         @media screen and (max-width: 980px) {
             body {
