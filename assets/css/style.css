@@ -123,6 +123,10 @@ a {
             width: 200px;
             height: 200px;
         }
+        #liri {
+            width: 200px;
+            height: 200px;
+        }
         img{
             margin: auto;
         }
@@ -166,6 +170,10 @@ body > .container {
 .container {
     background-image: url("../images/FootBackground.jpg");
     width: 960px;
+}
+
+a {
+    color: black;
 }
 
 /* Card titles centered */
