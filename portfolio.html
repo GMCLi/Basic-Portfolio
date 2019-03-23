@@ -6,11 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Basic Portfolio - Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
@@ -30,15 +36,18 @@
             <ul class="navbar-nav mr-auto">
                 <!--INDEX LINK-->
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html" style="color: black">About<span
+                            class="sr-only">(current)</span></a>
                 </li>
                 <!--PORTFOLIO LINK-->
                 <li class="nav-item active">
-                    <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="portfolio.html" style="color: grey">Portfolio<span
+                            class="sr-only">(current)</span></a>
                 </li>
                 <!--CONTACT LINK-->
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="contact.html" style="color: black">Contact<span
+                            class="sr-only">(current)</span></a>
                 </li>
                 <!--DROPDOWN SOCIAL-->
                 <li class="nav-item">
@@ -60,20 +69,36 @@
             <div class="card mb-3 text-center">
                 <a href="https://gmcli.github.io/Unit-4-Game/">
                     <img class="img-fluid" src="assets/images/Crystal.jpg" id="Crystal">
+                    <div class="overlay">
+                        <div class="overlayText">
+                            Collect crystals with a random numeric value and
+                            try to reach a set score!
+                        </div>
+                    </div>
                 </a>
                 <div class="card-body">
-                    <h5 class="card-title"><a href="https://gmcli.github.io/Unit-4-Game/"></href>Crystal Collector</a></h5>
+                    <h5 class="card-title">
+                        Crystal Collector
+                    </h5>
                 </div>
             </div>
         </div>
-        <!--TRAIN SCHEDULER-->
+        <!--PROJECT -2 VEHICLE RENTAL MANAGEMENT-->
         <div class="col-sm-4">
             <div class="card mb-3 text-center">
-                <a href="https://gmcli.github.io/Train-Scheduler/">
-                    <img class="img-fluid" src="assets/images/Train.jpg" id="TrainSch">
+                <a href="https://warm-river-82196.herokuapp.com/homepage?mode=select">
+                    <img src="assets/images/Veh.PNG" class="img-fluid" id="Veh"
+                        alt="https://github.com/GMCLi/Project-2">
                 </a>
+                <div class="overlay">
+                    <div class="overlayText">
+                        Create, read, update and delete vehicles and customers in this car rental management system!
+                    </div>
+                </div>
                 <div class="card-body">
-                    <h5 class="card-title"><a href="https://gmcli.github.io/Train-Scheduler/">Train Scheduler</a></h5>
+                    <h5 class="card-title">
+                        Vehicle Rental Management
+                    </h5>
                 </div>
             </div>
         </div>
@@ -82,9 +107,16 @@
             <div class="card mb-3 text-center">
                 <a href="https://ramonjul.github.io/Project-1/">
                     <img class="img-fluid" src="assets/images/TravelApp.PNG" id="TrainSch">
+                    <div class="overlay">
+                        <div class="overlayText">
+                            Find events and see their prices in a currency of your choosing!
+                        </div>
+                    </div>
                 </a>
                 <div class="card-body">
-                    <h5 class="card-title"><a href="https://ramonjul.github.io/Project-1/">Travel App</a></h5>
+                    <h5 class="card-title">
+                        Travel App
+                    </h5>
                 </div>
             </div>
         </div>
@@ -95,40 +127,103 @@
         <div class="col-sm-4">
             <div class="card mb-3 text-center">
                 <a href="https://gmcli.github.io/GifTastic/">
-                    <img  class="img-fluid"src="https://media.giphy.com/media/lAqo6CnBmEeTS/giphy.gif" id="Giftastic" alt="https://gmcli.github.io/GifTastic/">
+                    <img class="img-fluid" src="https://media.giphy.com/media/lAqo6CnBmEeTS/giphy.gif" id="Giftastic"
+                        alt="https://gmcli.github.io/GifTastic/">
+                    <div class="overlay">
+                        <div class="overlayText">
+                            Add gifs and click on them to start or stop!
+                        </div>
+                    </div>
                 </a>
                 <div class="card-body">
-                    <h5 class="card-title"><a href="https://gmcli.github.io/GifTastic/">GifTastic</a></h5>
+                    <h5 class="card-title">
+                        GifTastic
+                    </h5>
                 </div>
             </div>
         </div>
-        <!--ROCK PAPER SCISSORS CARD-->
+        <!--WORD CONSTRUCTOR-->
+        <div class="col-sm-4">
+            <div class="card mb-3 text-center">
+                <a href="https://gmcli.github.io/Constructor-Word-Guess/">
+                    <img class="img-fluid" src="assets/images/wordCon.jpg" id="wordCon">
+                    <div class="overlay">
+                        <div class="overlayText">
+                            See if you can guess the names of all countries!
+                        </div>
+                    </div>
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        GifTastic
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <!--LIRI NODE APP-->
         <div class="col-sm-4">
             <div class="card mb-3 text-center">
                 <a href="https://gmcli.github.io/Liri-Node-App/">
-                    <img  class="img-fluid"src="assets/images/Liri.jpg" id="liri" alt="https://github.com/GMCLi/Liri-Node-App/">
+                    <img class="img-fluid" src="assets/images/Liri.jpg" id="liri"
+                        alt="https://github.com/GMCLi/Liri-Node-App/">
                 </a>
                 <div class="card-body">
                     <h5 class="card-title"><a href="https://gmcli.github.io/Liri-Node-App/">Liri Node App</a></h5>
                 </div>
             </div>
         </div>
-        <!--EMPTY CARD FOR FUTURE DEV-->
+    </div>
+    <!--THIRD ROW-->
+    <div class="row">
+        <!--BAMAZON-->
         <div class="col-sm-4">
-            <!-- <div class="card mb-3">
-                <img src="assets/images/TriviaGame.jpg" class="card-img-top" id="TGame" alt="...">
+            <div class="card mb-3 text-center">
+                <a href="https://gmcli.github.io/Bamazon/">
+                    <img class="img-fluid" src="assets/images/bamIcon.png" id="Bam">
+                    <div class="overlay">
+                        <div class="overlayText">
+                            Check to see if there is enough inventory to fulfill the order!
+                        </div>
+                    </div>
+                </a>
                 <div class="card-body">
-                    <h5 class="card-title">Trivia Game</h5>
+                    <h5 class="card-title">
+                        Bamazon
+                    </h5>
                 </div>
-            </div> -->
+            </div>
+        </div>
+        <!--TRAIN SCHEDULER-->
+        <div class="col-sm-4">
+            <div class="card mb-3 text-center">
+                <a href="https://gmcli.github.io/Train-Scheduler/">
+                    <img class="img-fluid" src="assets/images/Train.jpg" id="TrainSch">
+                    <div class="overlay">
+                        <div class="overlayText">
+                            Add trains to a scheduler and see when the next one is on it's way!
+                        </div>
+                    </div>
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Train Scheduler
+                    </h5>
+                </div>
+            </div>
         </div>
     </div>
     <!--FOOTER-->
-    <footer class="fixed-bottom">
+    <footer class="page-footer">
         <div class="container">
             <span class="text-muted">copyright &copy;</span>
         </div>
     </footer>
+    <script type="text/javascript">
+        $(".card").on("click", function () {
+            window.location = $(this).find("a").attr("href");
+            return false;
+        })
+    </script>
 </body>
 
 </html>
