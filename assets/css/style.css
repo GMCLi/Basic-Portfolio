@@ -129,9 +129,13 @@ a {
         #Giftastic {
             width: 200px;
             height: 200px;
-            margin: auto;
+            /* margin: auto; */
         }
         #RPS {
+            width: 200px;
+            height: 200px;
+        }
+        #Autotrader {
             width: 200px;
             height: 200px;
         }
@@ -256,6 +260,9 @@ a {
                 width: 60%;
                 margin: 0 0 0 50px;
 
+            }
+            .card {
+                margin: auto;
             }
         }
         @media screen and (max-width: 768px) {
